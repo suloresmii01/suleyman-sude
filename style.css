@@ -1,0 +1,43 @@
+/* Genel sayfa ayarları */
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to bottom, #fdeff2, #ffe0e0);
+  text-align: center;
+  color: #880e4f;
+}
+
+/* Başlıklar */
+h1 {
+  font-size: 3em;
+  margin-top: 50px;
+}
+
+/* Paragraflar */
+p {
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+
+/* Bölümler arası boşluk */
+section {
+  margin: 50px 20px;
+}
+
+/* Footer */
+footer {
+  margin-top: 80px;
+  font-size: 1.2em;
+  color: #aa336a;
+}
+
+/* Kalpler efekti */
+.heart {
+  color: red;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+}
