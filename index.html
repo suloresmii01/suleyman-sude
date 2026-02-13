@@ -10,3 +10,13 @@
   <p>Bu site sadece bize ait 💙</p>
 </body>
 </html>
+<audio id="bgMusic" autoplay>
+  <source src="ta_uzak_yollardan.mp3" type="audio/mpeg">
+  Tarayıcınız audio elementini desteklemiyor.
+</audio>
+
+<script>
+  const music = document.getElementById('bgMusic');
+  music.currentTime = 60; // şarkıda "Haykırsam göklere..." kısmından başlatmak için saniye cinsinden
+  music.play();
+</script>
