@@ -20,3 +20,53 @@
   music.currentTime = 60; // şarkıda "Haykırsam göklere..." kısmından başlatmak için saniye cinsinden
   music.play();
 </script>
+/* Genel sayfa ayarları */
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to bottom, #ffdce0, #ffe0e0);
+  text-align: center;
+  color: #880e4f;
+}
+
+/* Başlıklar */
+h1 {
+  font-size: 3em;
+  margin-top: 50px;
+}
+
+/* Paragraflar */
+p {
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+
+/* Kalp efekti */
+.heart {
+  color: red;
+  font-size: 2em;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+}
+
+/* Footer */
+footer {
+  margin-top: 80px;
+  font-size: 1.2em;
+  color: #aa336a;
+}
+
+/* Buton stili (isteğe bağlı) */
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  background: pink;
+  color: #880e4f;
+  cursor: pointer;
+}
